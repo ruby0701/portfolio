@@ -9,9 +9,15 @@ import Timeline from './components/Timeline';
 function App() {
   return (
     <div className="App bg-body">
-      <Navbar></Navbar>
-      <Main></Main>
-      <Timeline></Timeline>
+      <div>
+        <Navbar></Navbar>
+      </div>
+      <div>
+        <Main></Main>
+      </div>
+      <div>
+        <Timeline></Timeline>
+      </div>
       <Footer></Footer>
     </div>
   );

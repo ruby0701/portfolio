@@ -4,7 +4,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 
 function Footer() {
     return (
-        <div className='footer flex bg-gray-700 text-white justify-between center'>
+        <div className='footer flex bg-gray-700 text-white justify-between items-center mx-auto'>
             <footer>Made by Ruby Wang 2023</footer>
 
             <div className='m-3 pd-3'>

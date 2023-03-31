@@ -7,7 +7,7 @@ import Timeline from './components/Timeline';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App bg-body">
       <Navbar href="#navbar"></Navbar>
       <Main></Main>
       <Timeline href="#timeline"></Timeline>

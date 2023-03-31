@@ -6,7 +6,7 @@ import WorkIcon from '@mui/icons-material/Work';
 
 function Timeline() {
     return (
-        <div className='timeline'>
+        <div className='timeline text-white bg-gray-700'>
             <VerticalTimeline lineColor='black'>
                 <VerticalTimelineElement
                     className='vertical-timeline-element--education'
@@ -14,10 +14,10 @@ function Timeline() {
                     iconStyle={{ background: "black", color: "white" }}
                     icon={<SchoolIcon></SchoolIcon>}
                 >
-                    <h3 className='vertical-timeline-element-title'>
+                    <h3 className='vertical-timeline-element-title text-black'>
                         National Taipei University, New Taipei City
                     </h3>
-                    <p>Bachelor Degree</p>
+                    <p className='text-black'>Bachelor Degree</p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className='vertical-timeline-element--education'
@@ -25,10 +25,10 @@ function Timeline() {
                     iconStyle={{ background: "black", color: "white" }}
                     icon={<SchoolIcon></SchoolIcon>}
                 >
-                    <h3 className='vertical-timeline-element-title'>
+                    <h3 className='vertical-timeline-element-title text-black'>
                         National Normal University, Taipei City
                     </h3>
-                    <p>Master Degree (Unfinshed)</p>
+                    <p className='text-black'>Master Degree (Unfinshed)</p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className='vertical-timeline-element--education'
@@ -36,10 +36,10 @@ function Timeline() {
                     iconStyle={{ background: "black", color: "white" }}
                     icon={<SchoolIcon></SchoolIcon>}
                 >
-                    <h3 className='vertical-timeline-element-title'>
+                    <h3 className='vertical-timeline-element-title text-black'>
                         Aso College, Hakata, Japan
                     </h3>
-                    <p>Bachelor Degree (Unfinshed)</p>
+                    <p className='text-black'>Bachelor Degree (Unfinshed)</p>
                 </VerticalTimelineElement>
 
                 <VerticalTimelineElement
@@ -48,10 +48,10 @@ function Timeline() {
                     iconStyle={{ background: "black", color: "white" }}
                     icon={<WorkIcon></WorkIcon>}
                 >
-                    <h3 className='vertical-timeline-element-title'>
+                    <h3 className='vertical-timeline-element-title text-black'>
                         National Cheng Kung University,EE Department, Tainan
                     </h3>
-                    <p>Research Assitant</p>
+                    <p className='text-black'>Research Assitant</p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className='vertical-timeline-element--education'
@@ -59,10 +59,10 @@ function Timeline() {
                     iconStyle={{ background: "black", color: "white" }}
                     icon={<WorkIcon></WorkIcon>}
                 >
-                    <h3 className='vertical-timeline-element-title'>
+                    <h3 className='vertical-timeline-element-title text-black'>
                         Taiwan Obayashi Group, Taipei
                     </h3>
-                    <p>Coordinator</p>
+                    <p className='text-black'>Coordinator</p>
                 </VerticalTimelineElement>
             </VerticalTimeline>
         </div >

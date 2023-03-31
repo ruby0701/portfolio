@@ -5,12 +5,13 @@ import Footer from './components/Footer';
 import Timeline from './components/Timeline';
 
 
+
 function App() {
   return (
     <div className="App bg-body">
-      <Navbar href="#navbar"></Navbar>
+      <Navbar></Navbar>
       <Main></Main>
-      <Timeline href="#timeline"></Timeline>
+      <Timeline></Timeline>
       <Footer></Footer>
     </div>
   );

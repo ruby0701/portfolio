@@ -4,10 +4,10 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 
 function Footer() {
     return (
-        <div>
-            <footer>Ruby Wang 2023</footer>
+        <div className='footer flex bg-gray-700 text-white justify-between center'>
+            <footer>Made by Ruby Wang 2023</footer>
 
-            <div>
+            <div className='m-3 pd-3'>
                 <a href="mailto:ruby0701@gmail.com">ruby0701@gmail.com</a>
                 <div >
                     <a href="https://www.linkedin.com/feed/" target='_blank' rel="noreferrer">
